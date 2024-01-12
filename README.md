@@ -8,21 +8,16 @@
   <br>
 </h1>
 
-## _Project Name_
-_The project name should match its code's capability so that new users can easily understand what it does._
+## STT Combine Datasets
 
 ## Owner(s)
-
-_Change to the owner(s) of the new repo. (This template's owners are:)_
-- [@ngawangtrinley](https://github.com/ngawangtrinley)
-- [@mikkokotila](https://github.com/mikkokotila)
-- [@evanyerburgh](https://github.com/evanyerburgh)
+- [@spsither](https://github.com/spsither)
+- [@TenzinGayche](https://github.com/TenzinGayche)
 
 ## RFXs
 Requests for work (RFWs) and requests for comments (RFCs) associated with this project:
-* [RFX name](#)
-* [RFX name](#)
-* [RFX name](#)
+* [RFW0114: Recreate the benchmark dataset, ensuring a more balanced distribution across all departments](https://github.com/OpenPecha/Requests/issues/367)
+* [RFW0125: Technical documentation about STT and TTS workflow for other developers](https://github.com/OpenPecha/Requests/issues/363)
 
 ## Table of contents
 <p align="center">
@@ -38,26 +33,27 @@ Requests for work (RFWs) and requests for comments (RFCs) associated with this p
 <hr>
 
 ## Project description
-_Use one of these:_
 
-With _Project Name_ you can _verb_ _noun_...
-
-_Project Name_ helps you _verb_ _noun_...
+STT Combine Datasets helps you combine datasets from three different sources: stt.pecha.tools, prodigy and saymore for mv.
+The data from  these sources are combined into a single 04_combine_all.tsv file. Benchmark dataset is created from this combined tsv. 
 
 
 ## Who this project is for
-This project is intended for _target user_ who wants to _user objective_.
+This project is intended for STT data pipeline maintainer who wants to update the aggrigate STT/TTS dataset. 
 
 
 ## Project dependencies
-Before using _Project Name_, ensure you have:
-* _Prerequisite 1_
-* _Prerequisite 2_
-* _Prerequisite 3..._
+Before using STT Combine dataset, ensure you have:
+* [saymore-report-generator](https://github.com/OpenPecha/saymore-report-generator)
 
 
 ## Instructions for use
-Get started with _Project Name_ by _(write the first step a user needs to start using the project. Use a verb to start.)_.
+Get started with STT Combine dataset by going through 
+- 01_stt_pecha_tools.ipynb
+- 02_prodigy.ipynb
+- 03_mv_saymore.ipynb
+- 04_combine_all.ipynb
+- 05_benchmark.ipynb
 
 
 ### Install _Project Name_
