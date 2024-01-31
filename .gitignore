@@ -3,4 +3,4 @@
 downloaded_audio_files
 *.jsonl
 *.tar
-data
+*.csv

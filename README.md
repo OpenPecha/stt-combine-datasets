@@ -74,10 +74,9 @@ Get started with STT Combine dataset by going through
     b. Acticate the envronment
     > source .env/bin/activate
     
-    b. _Substep 2_
 3. Install required packages
 
-  > pip install -r requirements.txt
+    > pip install -r requirements.txt
 
 
 ## Contributing guidelines
