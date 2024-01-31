@@ -50,80 +50,34 @@ Before using STT Combine dataset, ensure you have:
 ## Instructions for use
 Get started with STT Combine dataset by going through 
 - 01_stt_pecha_tools.ipynb
+  - Collect Data from stt.pecha.tools
 - 02_prodigy.ipynb
+  - Collect Data from legacy prodigy instance
 - 03_mv_saymore.ipynb
+  - Collect Data from STT Movie (MV). The data for Movie is collected from different repository in MonlamAI GitHub repository.
 - 04_combine_all.ipynb
+  - Combine all the data into one dataframe.
 - 05_benchmark.ipynb
+  - Create benchmark dataset using the highest quality grade of 3. Which means the task has been checked by the quality control team.
 
 
-### Install _Project Name_
-1. _Write the step here._ 
+### Install STT Combine dataset
+1. Clone the repository
 
-    _Explanatory text here_ 
-    
-    _(Optional: Include a code sample or screenshot that helps your users complete this step.)_
+    > git clone git@github.com:OpenPecha/stt-combine-datasets.git
 
-2. _Write the step here._
+2. Create a virtual environment
  
-    a. _Substep 1_ 
+    a. Create a virtual environment
+    > python3 -m venv .env
+
+    b. Acticate the envronment
+    > source .env/bin/activate
     
     b. _Substep 2_
+3. Install required packages
 
-
-### Configure _Project Name_
-1. _Write the step here._
-2. _Write the step here._
-
-
-### Run _Project Name_
-1. _Write the step here._
-2. _Write the step here._
-
-
-### Troubleshoot _Project Name_
-1. _Write the step here._
-2. _Write the step here._
-
-<table>
-  <tr>
-   <td>
-    Issue
-   </td>
-   <td>
-    Solution
-   </td>
-  </tr>
-  <tr>
-   <td>
-    _Describe the issue here_
-   </td>
-   <td>
-    _Write solution here_
-   </td>
-  </tr>
-  <tr>
-   <td>
-    _Describe the issue here_
-   </td>
-   <td>
-    _Write solution here_
-   </td>
-  </tr>
-  <tr>
-   <td>
-    _Describe the issue here_
-   </td>
-   <td>
-    _Write solution here_
-   </td>
-  </tr>
-</table>
-
-
-Other troubleshooting supports:
-* _Link to FAQs_
-* _Link to runbooks_
-* _Link to other relevant support information_
+  > pip install -r requirements.txt
 
 
 ## Contributing guidelines
@@ -131,12 +85,12 @@ If you'd like to help out, check out our [contributing guidelines](/CONTRIBUTING
 
 
 ## Additional documentation
-_Include links and brief descriptions to additional documentation._
 
 For more information:
-* [Reference link 1](#)
-* [Reference link 2](#)
-* [Reference link 3](#)
+* [Prodigy](https://prodi.gy/docs)
+* [stt.pecha.tools](https://github.com/OpenPecha/pecha-tools-for-stt)
+* [saymore](https://software.sil.org/saymore/)
+* [saymore-report-generator](https://github.com/OpenPecha/saymore-report-generator)
 
 
 ## How to get help
